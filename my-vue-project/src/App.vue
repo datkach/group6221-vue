@@ -1,8 +1,7 @@
 <template>
   <div>
-    <HeaderComponent />
+    <HeaderComponent title="Hello title properties!"/>
   </div>
-
 </template>
 
 <script>
