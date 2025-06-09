@@ -1,6 +1,7 @@
 <template>
 <header>
-<h1>{{ title }}</h1>
+<h1>{{ title }} {{ age }}</h1>
+<p>{{ city }}</p>
 </header>
 </template>
 
@@ -11,7 +12,12 @@ export default {
         title :{
             type: String,
             required: true
-        }
+        },
+        age : {
+            type: Number,
+            default: 50
+        },
+        city: String,
     }
 };
 </script>
